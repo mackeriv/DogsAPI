@@ -38,7 +38,8 @@ public class Main {
 
             try {
                 BufferedImage image = ImageIO.read(imageAddress.toURL());
-                ImageIO.write(image, "jpg", new File("output/" + ID + imageAddress.toString().substring(imageAddress.toString().length() - 4)));
+                ImageIO.write(image, "jpg", new File("output/" + ID +
+                        imageAddress.toString().substring(imageAddress.toString().length() - 4)));
             } catch (IOException ioex2) {
                 ioex2.printStackTrace();
             }
