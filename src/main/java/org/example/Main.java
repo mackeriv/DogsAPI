@@ -40,15 +40,13 @@ public class Main {
                 BufferedImage image = ImageIO.read(imageAddress.toURL());
                 ImageIO.write(image, "jpg", new File("output/" + ID +
                         imageAddress.toString().substring(imageAddress.toString().length() - 4)));
+
+                System.out.println("\033[0;1m" + "Image saved!");
+                System.out.println("\n");
+
             } catch (IOException ioex2) {
                 ioex2.printStackTrace();
             }
-
-            System.out.println("\033[0;1m" + "Image saved!");
-            System.out.println("\n");
-
-
         }
-
     }
 }
