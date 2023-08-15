@@ -5,7 +5,7 @@ Project consisting on consuming **The Dog API** for retrieving images. It is a f
 
 The program creates an HTTP connection to The Dog API, runs the result through a JSON parser and populates a list with the relevant information. It then attempts to download 10 of them and save them to locally:
 
-![screenshot2](images/1.png)
+<img src="images/1.png" width="48%">
 
 ![screenshot3](images/2.png)
 
